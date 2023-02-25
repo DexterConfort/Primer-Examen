@@ -40,6 +40,12 @@ namespace AngelCoello
                 return;
             }
             PosibleErrorProvider.Clear();
+            if (NumerosComboBox.Text == "")
+            {
+                PosibleErrorProvider.SetError(NumerosComboBox, "Seleccione un Número");
+                return;
+            }
+            PosibleErrorProvider.Clear();
 
             Habilitar();
 

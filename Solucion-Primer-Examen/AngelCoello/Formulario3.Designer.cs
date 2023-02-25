@@ -46,7 +46,7 @@
             // 
             this.CalcularButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CalcularButton.Image = global::AngelCoello.Properties.Resources.calculadora;
-            this.CalcularButton.Location = new System.Drawing.Point(368, 42);
+            this.CalcularButton.Location = new System.Drawing.Point(375, 42);
             this.CalcularButton.Name = "CalcularButton";
             this.CalcularButton.Size = new System.Drawing.Size(74, 49);
             this.CalcularButton.TabIndex = 3;
@@ -57,8 +57,9 @@
             // 
             // button1
             // 
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.Image = global::AngelCoello.Properties.Resources.regreso;
-            this.button1.Location = new System.Drawing.Point(368, 223);
+            this.button1.Location = new System.Drawing.Point(375, 223);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(74, 47);
             this.button1.TabIndex = 1;
@@ -73,7 +74,7 @@
             this.RefrescarButton.Enabled = false;
             this.RefrescarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RefrescarButton.Image = global::AngelCoello.Properties.Resources.actualizar;
-            this.RefrescarButton.Location = new System.Drawing.Point(368, 170);
+            this.RefrescarButton.Location = new System.Drawing.Point(375, 170);
             this.RefrescarButton.Name = "RefrescarButton";
             this.RefrescarButton.Size = new System.Drawing.Size(74, 47);
             this.RefrescarButton.TabIndex = 16;
